@@ -3,7 +3,7 @@
 	const gcse = document.createElement('script');
 
 	gcse.type = 'text/javascript';
-	gcse.async = true;
+	gcse.async = false;
 	gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
 
 	const s = document.getElementsByTagName('script')[0];
