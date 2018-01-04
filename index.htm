@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta name="description" content="A NationStates' search engine developed by Nemesis Corporation based on Google search engine." />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>Navi – NationStates' Web Portal</title>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="style/base.css" /> <!-- Base css -->
+		<link rel="stylesheet" href="style/layout.css" /> <!-- Layout css -->
+		<link rel="stylesheet" href="style/modules.css" /> <!-- Modules css -->
+		<link rel="stylesheet" href="style/state.css" /> <!-- State css -->
+		<link rel="stylesheet" href="style/theme.css" /> <!-- Theme css -->
+
+		<!-- Scripts -->
+		<script src="script/gcse.js"></script> <!-- Google Custom Search Engine -->
+		<script src="script/media-definer.js"></script> <!-- Media definer -->
+	</head>
+	<body class="Navi-App , Navi-App--theme_gainsboro , Navi-App--state_start , Navi-App@mobile">
+		<header class="Navi-Header">
+
+			<div class="Navi-Header__search-box">
+				<p class="Navi-Header__logo :: Navi-Logo">navi</p>
+				<div class="Navi-Header__search-bar :: !gcse-style-override">
+					<gcse:searchbox></gcse:searchbox>
+				</div>
+			</div>
+
+			<nav class="Navi-Header__nav :: Navi-Nav">
+				<ul class="Navi-Header__navbar :: Navi-Nav__list">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Trends</a></li>
+					<li><a href="#"><span class="Navi-Logo , Navi-Logo--branch_design">navi</span> Design</a></li>
+					<li><a href="#"><span class="Navi-Logo , Navi-logo--branch_music">navi</span> Music</a></li>
+					<li><a href="#">About us</a></li>
+				</ul>
+			</nav>
+
+		</header>
+
+		<main class="Navi-Main">
+			<div class="Navi-Main__search-results">
+				<gcse:searchresults></gcse:searchresults>
+			</div>
+		</main>
+
+		<footer class="Navi-Footer">
+			<div class="Navi-Footer__trademark">
+				<p class="Navi-Footer__logo :: Navi-Logo">navi</p>
+				<p class="Navi-Footer__copyright">&copy; Nemesis Corporation</p>
+			</div>
+
+			<nav class="Navi-Footer__nav :: Navi-Nav">
+				<ul class="Navi-Nav__list">
+					<li><a href="#">Advertising</a></li>
+					<li><a href="#">Company</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Parameters</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
